@@ -1,0 +1,146 @@
+/*--------------------Frequent--------------------*/
+* {
+  color: #1a1c20
+}
+
+
+center {
+  border: 4px double black;
+}
+
+center {
+background-color: #f0a500;
+background-image: url ("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+}
+
+body {
+background-color: #f4f4f4;
+background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+}
+
+html {
+  border-left: 18px solid black;
+}
+/*-------------------Specific---------------------*/
+
+h2 {
+  font-size: 2.4em;
+  position: center;
+  bottom: 4px;
+  width: 100%;
+}
+
+.edu:after {
+  content: "This is .edu";
+  font-style: italic;
+  font-size: .2em;
+  position: right;
+}
+
+.exp:before {
+  content: "this is .exp";
+  font-style: italic;
+  font-stretch: extra-expanded;
+  font-size: .2em;
+}
+
+#headerOne {
+  background-color: #cf7500;
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+  color: black;
+  padding: 4px;
+  text-align: center;
+} 
+
+.edu {
+  background-color: #cf7500;
+ background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+  color: black;
+  padding: 4px;
+  text-align: center;
+  border-bottom-style: double;
+} 
+
+ .edu2 {
+  width: 300px 20px;
+  border: 8px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #f0a500;
+ background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+ border-style: double;
+ align-self: start;
+}
+
+.exp {
+  background-color: #cf7500;
+ background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+  color: black;
+  padding: 4px;
+  text-align: center;
+  border-bottom-style: double;
+} 
+
+ .exp1 {
+  width: 300px 20px;
+  border: 8px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #f0a500;
+ background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+ border-style: double;
+}
+
+.ital {
+  font-size: 40px;
+  text-align: center;
+  border-style: double;
+}
+
+h4 {
+ text-align: center;
+ border-bottom: double #cf7500 2px;
+ text-size: 20px;
+}
+
+.abt {
+    width: 300px 20px;
+  border: 8px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #f0a500;
+ background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+ border-style: double;
+}
+
+/* --------slideshow-------- */
+
+.slide {
+  width:350px;
+   height:300px; 
+  overflow:hidden;
+   position:center; 
+  }
+.slide img { 
+  position:absolute; 
+  animation:slide 20s infinite;
+   opacity:0;
+    width: 100%;
+     height: auto;
+  }
+
+@keyframes slide 
+{25%{opacity:1;} 
+40%{opacity:0;}}
+.slide img:nth-child(4)
+{animation-delay:0s;
+}
+.slide img:nth-child(3)
+{animation-delay:5s;
+}
+.slide img:nth-child(2)
+{animation-delay:10s;
+}
+.slide img:nth-child(1)
+{animation-delay:15s;
+}
